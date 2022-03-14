@@ -9,7 +9,7 @@ function App() {
 
   const searchIp = (ipAddressDictL) => {
     console.log("metodo",ipAddressDictL);
-    const url = "http://ip-api.com/json/" + ((typeof ipAddressDictL.query !== 'undefined') ? ipAddressDictL.query : "");
+    const url = "/json/" + ((typeof ipAddressDictL.query !== 'undefined') ? ipAddressDictL.query : "");
       
       fetch(url)
       .then((res) => {

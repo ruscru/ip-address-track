@@ -1,1 +1,1 @@
-/json/* http://ip-api.com/json/:splat 200!
+http://ip-api.com/json/* http://ip-api.com/json/:splat 200!

@@ -1,0 +1,47 @@
+.heading{
+    background-image: url('../../public/assets/heading_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: Header;
+    height: 40%;
+
+}
+
+.heading h1{
+    color: white;
+}
+
+
+
+.search{
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.search form{
+    width: 100%
+}
+
+.search input{
+    padding:20px;
+    font-size: 18px;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    width:50%;
+}
+
+.search button{
+    padding:20px 25px;
+    font-size: 18px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,64 @@
+.DataIpInfo{
+    display: flex;
+    flex-direction: row;      
+    z-index: 2;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 15px;    
+    width: 80%;
+    position: absolute;
+    top: 30%; 
+   
+}
+
+.DataIpInfo .section{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+   
+}
+
+.DataIpInfo .section h5{
+    color: #969696;
+    font-weight: 600;
+    padding-top: 20px;
+    margin:0;
+    font-size: 10px;
+}
+
+.DataIpInfo .section h2{
+    font-size: 18px;
+}
+
+.verticalLine{
+    border-left: 1px solid #969696;
+    height: 60px;
+    width: 1px;
+    top:0;
+    bottom:0;
+    margin: auto 10px;
+    
+}
+
+
+@media (max-width: 600px) {
+    .DataIpInfo{
+        flex-direction: column; 
+        text-align: center;
+        align-items: center; 
+        top: 30%;
+    }
+
+    .DataIpInfo .section{
+        width: 100%;
+    }
+
+    .DataIpInfo .section h5{
+        padding-top: 0;
+    }
+
+    .verticalLine{
+        display: none;
+    }
+}
